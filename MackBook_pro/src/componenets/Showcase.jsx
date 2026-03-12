@@ -36,11 +36,11 @@ const Showcase = () => {
               y: 0,
               ease: "power1.inOut",
             },
-            "-=0.2"
+            "-=0.2",
           );
       }
     },
-    { dependencies: [isTablet] }
+    { dependencies: [isTablet] },
   );
 
   return (
